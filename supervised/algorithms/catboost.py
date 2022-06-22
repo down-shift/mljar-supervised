@@ -343,6 +343,7 @@ classification_params = {
     "learning_rate": [0.025, 0.05, 0.1, 0.2],
     "depth": [4, 5, 6, 7, 8, 9],
     "rsm": [0.7, 0.8, 0.9, 1],  # random subspace method
+    "l2_leaf_reg": [3.0, 6.0, 9.0, 12.0],  # L2 regularization coefficient
     "loss_function": ["Logloss"],
 }
 
@@ -350,6 +351,7 @@ classification_default_params = {
     "learning_rate": 0.1,
     "depth": 6,
     "rsm": 1,
+    "l2_leaf_reg": 3.0,
     "loss_function": "Logloss",
 }
 
